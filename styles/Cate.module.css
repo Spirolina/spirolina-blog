@@ -1,0 +1,49 @@
+
+.container {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    margin-top: 16px;
+}
+
+.category {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    padding: 4px 8px;
+    margin: 8px;
+    border-radius: 8px;
+    background-color: whitesmoke;
+    text-decoration: none;
+    color:#1F51FF ;
+    transition: all 0.2s;
+}
+
+.category:hover {
+    transform: scale(1.04);
+}
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+@media screen and (min-width: 800px) { 
+    .container {
+        width: 85%;
+        
+
+
+    }
+}
+
+@media screen and (min-width: 1200px) { 
+    .container {
+        width: 70%;
+       
+
+    }
+}

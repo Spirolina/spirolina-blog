@@ -1,0 +1,19 @@
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    background-color: #B4E4FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #353839;
+    font-weight: bold;
+}
+
+.githubIcon {
+text-decoration: none;
+color: #353839;
+display: flex;
+}

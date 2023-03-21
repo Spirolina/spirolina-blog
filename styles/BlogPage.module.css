@@ -1,0 +1,53 @@
+
+.container {
+        width: 90%;
+        margin: auto;
+        margin-top: 16px;
+    }
+
+.markdown {
+    padding: 24px;
+    padding-top: 0;
+    line-height: 1.8;
+    background-color: #B4E4FF;
+    border-radius:0 0 4px 4px;
+}
+
+
+.markdown pre {
+    background-color:#282C34 ;
+    padding: 16px;
+    border-radius: 4px;
+}
+
+.markdown code {
+    color: gray;
+}
+
+.markdown blockquote {
+    background-color: #BDCDD6;
+    padding: 8px;
+}
+
+
+
+
+@media screen and (min-width: 800px) { 
+    .container {
+        width: 85%;
+        margin: auto;
+        margin-top: 16px;
+
+
+    }
+}
+
+@media screen and (min-width: 1200px) { 
+    .container {
+        width: 70%;
+        margin: auto;
+        margin-top: 16px;
+
+    }
+
+}

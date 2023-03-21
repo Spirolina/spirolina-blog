@@ -1,0 +1,115 @@
+.blog {
+
+margin-bottom: 16px;
+background-color: #B4E4FF;
+border-radius: 10px 10px 10px 10px;
+box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+transition: all 0.2s;
+}
+
+.blogs {
+    margin-top: 16px;
+}
+.blogInfo {
+padding: 8px;
+font-size: 18px;
+display: flex;
+flex-direction: column;
+}
+
+.postDate {
+    margin-left: auto;
+    color: gray;
+    font-size: 16px;
+}
+
+.blogLink img {
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+}
+
+.blogLink {
+    text-decoration: none;
+    margin-bottom: 16px;
+background-color: #B4E4FF;
+border-radius: 10px 10px 10px 10px;
+box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+transition: all 0.2s;
+    color: black;
+    display: block;
+}
+
+.blogLink:hover  {
+    cursor: pointer;
+    transform: scale(1.01);
+}
+
+.category {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    padding: 2px 4px;
+    margin: 4px;
+    border-radius: 8px;
+    background-color: whitesmoke;
+    text-decoration: none;
+    color:#1F51FF ;
+    transition: all 0.2s;
+}
+
+.category:hover {
+    transform: scale(1.04);
+}
+
+.upperInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blogPageCategories {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #B4E4FF;
+    border-radius: 4px 4px 0 0;
+    padding: 24px;
+    padding-bottom: 0;
+}
+@media screen and (min-width: 600px) { 
+
+.blog {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 16px;
+    
+}
+
+
+
+
+}
+
+@media screen and (min-width: 800px) { 
+
+    .blogs{
+        display: flex;
+        width: 100%;
+        
+    }
+    .blog {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 16px;
+        
+    }
+    
+    .blogLink {
+        width: 49%;
+    }
+    
+    
+    }
